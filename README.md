@@ -22,7 +22,7 @@ POST http://localhost:9096/rest/blogs
 
 Requst Body:
 {
-"text": "secnd  post",
+"text": "Happy to announce, the publishment of the application of pet shop in the prod. Kindly check and give your feedback",
 "imageURL": "petshop.jpg"
 }
 
@@ -35,5 +35,5 @@ Post a comment for particular blog with postId
 POST http://localhost:9096/rest/comment
 {
 "postId": 2,
-"commentText": "afasd fsadf ads fsda fsadf sd"
+"commentText": "Good Job"
 } 
